@@ -4,9 +4,9 @@
   "description": "company website",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "browserify main.js -o bundle.js",
-    "watch": "watchify main.js -o bundle.js"
+    "start": "node server.js"
+    // "build": "browserify main.js -o bundle.js",
+    // "watch": "watchify main.js -o bundle.js"
   },
   "repository": {
     "type": "git",
