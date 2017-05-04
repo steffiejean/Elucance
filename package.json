@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "4.1.0"
+    "npm": "4.2.0"
   },
   "description": "company website",
   "main": "index.js",
