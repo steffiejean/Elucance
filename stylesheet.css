@@ -30,23 +30,9 @@ a:hover,
 a:focus {
   color: #eb3812;
 }
-h1 {
-  font-family: 'Varela Round';
-  font-size: 36px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
-}
-h3 {
-  font-family: 'Varela Round';
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 15.4px;
-}
+h1
 h2,
+h3,
 h4,
 h5,
 h6 {
