@@ -300,6 +300,14 @@ fieldset[disabled] .btn-default.active {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+.btn-special{
+	color: white;
+  background-color: #2196F3;
+  border-color: #2196F3;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
