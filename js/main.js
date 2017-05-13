@@ -72,7 +72,7 @@
         var tel = $("#phone").val()
         var message = $("#message").val()
         var payload = {name:name, email:email, phone:tel, message:message}
-        $.get("http://localhost:5000/send", payload)
+        $.get("https://boiling-brook-39238.herokuapp.com/send", payload)
     })
 
 
