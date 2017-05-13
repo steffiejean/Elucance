@@ -63,10 +63,10 @@
 
 
 
-    console.log("button loads after my jquery ")
+    //console.log("button loads after my jquery ")
 
     $("#submit-button").click(function(event){
-        event.preventDefault()
+        //event.preventDefault()
         var name = $("#name").val()
         var email = $("#email").val()
         var tel = $("#phone").val()
