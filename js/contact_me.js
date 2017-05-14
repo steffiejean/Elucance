@@ -1,4 +1,4 @@
-// Contact Form Scripts
+// // Contact Form Scripts
 
 $(function() {
 
@@ -12,7 +12,7 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var phone = $("input#phone").val();
+            var tel = $("input#phone").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -20,11 +20,11 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
+                url: "https://boiling-brook-39238.herokuapp.com/send",
+                type: "GET",
                 data: {
                     name: name,
-                    phone: phone,
+                    phone: tel,
                     email: email,
                     message: message
                 },

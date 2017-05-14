@@ -61,19 +61,4 @@
         }
     });
 
-
-
-    //console.log("button loads after my jquery ")
-
-    $("#submit-button").click(function(event){
-        //event.preventDefault()
-        var name = $("#name").val()
-        var email = $("#email").val()
-        var tel = $("#phone").val()
-        var message = $("#message").val()
-        var payload = {name:name, email:email, phone:tel, message:message}
-        $.get("https://boiling-brook-39238.herokuapp.com/send", payload)
-    })
-
-
 })(jQuery); // End of use strict
