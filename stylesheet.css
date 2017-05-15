@@ -543,6 +543,7 @@ footer span.copyright {
 section#contact {
   background-color: #222222;
   background-image: url('img/space.jpg');
+  background-size: 1500px, 800px;
   background-position: center;
   background-repeat: no-repeat;
 }
