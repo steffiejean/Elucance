@@ -17,3 +17,4 @@ cmd + space_bar - search mac
 cmd + f - find all files in project
 cmd + d - highlights a word
 ctrl + c - kills server and other stuff
+# squarespace
