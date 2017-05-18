@@ -20,7 +20,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://boiling-brook-39238.herokuapp.com/send",
+                url: "https://www.elucance.com/send",
                 type: "GET",
                 data: {
                     name: name,
