@@ -1,5 +1,10 @@
 # Elucance
 
+ls to check file path
+
+cd name
+
+
 git add . - adds all files that i've changed
 
 git commit -m ‘message’ - commits with message
