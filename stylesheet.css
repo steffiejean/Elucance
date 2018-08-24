@@ -69,6 +69,24 @@ section {
 aside {
   padding: 50px 0;
 }
+
+.box {
+  background-color: #f9f9f9 ;
+  background-position: right;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 3px 3px #888888;
+
+}
+
+.box-1 {
+  background-color: #8888 ;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
 .no-padding {
   padding: 0;
 }
@@ -166,7 +184,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('img/geo1.png');
+  background-image: url('img/Hearts.png');
   text-align: center;
   color: white;
 }
@@ -542,7 +560,7 @@ footer span.copyright {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('img/space.jpg');
+  background-image: url('img/user.jpg');
   background-size: 1500px, 800px;
   background-position: center;
   background-repeat: no-repeat;
