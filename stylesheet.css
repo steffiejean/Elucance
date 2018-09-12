@@ -75,7 +75,7 @@ aside {
   background-position: right;
   padding-top: 50px;
   padding-bottom: 50px;
-  box-shadow: 3px 3px #888888;
+
 
 }
 
@@ -184,7 +184,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('img/Hearts.png');
+  background-image: url('img/wall.jpg');
   text-align: center;
   color: white;
 }
